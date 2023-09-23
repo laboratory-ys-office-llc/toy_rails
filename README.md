@@ -16,10 +16,13 @@ touch Gemfile
 Gemfile の内容:
 
 ```ruby
+# Gemfile
+
 source 'https://rubygems.org'
 
-gem 'activerecord', '7.0.8'
-gem 'sqlite3', '~> 1.4'
+gem 'sqlite3'
+gem 'activerecord'
+gem 'rake'
 ```
 
 ## 3. Bundle install
