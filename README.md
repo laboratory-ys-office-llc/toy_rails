@@ -148,6 +148,18 @@ ruby app.rb
 sqlite3 db/infinite_insight_engine.sqlite3
 ```
 
+```sql
+SQLite version 3.37.2 2022-01-06 13:25:41
+Enter ".help" for usage hints.
+sqlite> SELECT * FROM users;
+sqlite> PRAGMA table_info(users);
+0|id|INTEGER|1||1
+1|username|varchar|0||0
+2|email|varchar|0||0
+3|created_at|datetime(6)|1||0
+4|updated_at|datetime(6)|1||0
+```
+
 ## 11. .gitignore の作成（オプショナル）
 
 このプロジェクトでは特に隠したいファイルはないかもしれませんが、一般的に`.gitignore`には以下のような内容が含まれることがあります。
